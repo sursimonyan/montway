@@ -1,0 +1,30 @@
+.shipping {
+  margin-block-end: 3rem;
+}
+
+.shipping__title {
+  margin-block-end: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.shipping__inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13.2rem, 1fr));
+  gap: 1.5rem;
+}
+
+.shipping__icon {
+  height: 2rem; 
+  margin-block-end: .8rem;
+}
+
+.shipping__item h4 {
+  margin-block-end: 1rem;
+  font-size: 1rem;
+}
+
+.shipping__item p {
+  font-size: .7rem;
+  line-height: 1.2;
+}
