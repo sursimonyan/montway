@@ -1,0 +1,108 @@
+.booking {
+  margin-block-end: 4rem;
+  padding-block: 2rem;
+  background-color: var(--gray);
+}
+
+.booking__title {
+  margin-block-end: .7rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.booking__subtitle {
+  margin-block-end: .7rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.booking__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 1.5rem;
+}
+
+.booking__video {
+  max-width: 33.5rem;
+  width: 56%;
+  transform: translateX(50px);
+  transition: transform .3s ease-out;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.booking__video img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.booking__steps {
+  max-width: 23.5rem;
+  width: 40%;
+  padding: 1rem;
+  background-color: var(--content-bg);
+  transform: translateX(-50px);
+  transition: transform .3s ease-out;
+  box-shadow: 0 5px 30px 0 rgba(35, 43, 54, .3);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.booking__steps_title {
+  margin-block-end: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.booking__steps_item {
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+}
+
+.booking__steps_item + .booking__steps_item {
+  margin-block-start: 1.2rem;
+}
+
+.booking__steps_item_img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.booking__steps_item_text h5 {
+  margin-block-end: .5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--light-blue);
+}
+
+.booking__steps_item_text p {
+  font-size: .7rem;
+  font-weight: 600;
+}
+
+.booking__inner:hover .booking__video,
+.booking__inner:hover .booking__steps {
+  transform: translatex(0);
+}
+
+.booking__buttons {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .booking__inner {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .booking__video,
+  .booking__steps {
+    max-width: 100%;
+    width: 100%;
+    transform: translateX(0);
+  }
+}
