@@ -142,34 +142,27 @@
         </div>
         <div class="form">
           <h4 class="form__title">Request Qoute Form</h4>
-          <p class="form__info_title">Personal Information</p>
           <form class="form__inner">
             <div class="form__inputs">
-              <input type="text" placeholder="Name">
-              <input type="email" placeholder="Email">
-              <input type="tel" placeholder="Phone">
-            </div>
-            <div class="form__range">
-              <p class="form__info_title">Distance(km) <span>40</span></p>
-              <input type="range" class="form__distance range-slider" min="10" max="1000" value="40" />
-            </div>
-            <div class="form__type">
-              <div class="form__select">
-                <p class="form__info_title">Freight Type</p>
-                <select>
-                  <option>incoterms</option>
-                  <option>incoterms</option>
-                  <option>incoterms</option>
-                </select>
+              <div>
+                <p class="form__info_title">Name</p>
+                <input type="text" placeholder="Name">
               </div>
-              <div class="form__select">
-                <p class="form__info_title">Load</p>
-                <select>
-                  <option>0</option>
-                  <option>1</option>
-                  <option>2</option>
-                </select>
+              <div>
+                <p class="form__info_title">Name</p>
+                <input type="text" placeholder="Name">
               </div>
+            </div>
+            <div class="form__transport_type">
+              Transport type
+              <label>
+                <input type="radio" name="transportation-type" checked>
+                Open
+              </label>
+              <label>
+                <input type="radio" name="transportation-type">
+                Enclosed
+              </label>
             </div>
             <button type="submit" class="form__submit">Get A Qoute</button>
           </form>
