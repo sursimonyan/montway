@@ -23,13 +23,13 @@
 .banner__title {
   margin-block-end: .8rem;
   font-size: 2rem;
-  line-height: 1.2;
+  line-height: 1.25;
   font-weight: 600;
 }
 
 .banner__subtitle {
   font-size: 1.2rem;
-  line-height: 1.2;
+  line-height: 1.25;
 }
 
 .form {
@@ -129,7 +129,12 @@
 
 .form__transport_type label {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  column-gap: .2rem;
+}
+
+.form__transport_type input {
+  margin: 0;
 }
 
 @media screen and (max-width: 992px) {

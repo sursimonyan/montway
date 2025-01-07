@@ -3,7 +3,7 @@
 }
 
 .shipping__title {
-  margin-block-end: 1.5rem;
+  margin-block-end: 2rem;
   font-size: 1.8rem;
   font-weight: 600;
 }
@@ -22,9 +22,10 @@
 .shipping__item h4 {
   margin-block-end: 1rem;
   font-size: 1rem;
+  font-weight: 600;
 }
 
 .shipping__item p {
-  font-size: .7rem;
-  line-height: 1.2;
+  font-size: .8rem;
+  line-height: 1.25;
 }

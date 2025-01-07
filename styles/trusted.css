@@ -1,0 +1,15 @@
+.trusted {
+  margin-block-end: 3rem;
+}
+
+.trusted__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.trusted__title {
+  margin-block-end: 2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
