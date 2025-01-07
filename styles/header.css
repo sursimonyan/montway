@@ -133,6 +133,21 @@
   margin-inline: auto;
 }
 
+@media screen and (min-width: 1200px) {
+  .nav__item_content {
+    padding-block: 1.5rem;
+    padding-inline: 1.5rem;
+  }  
+  
+  .nav__item_content {
+    column-gap: 2rem;
+  }
+  
+  .nav__item_content div {
+    row-gap: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .header__logo {
     margin-inline: auto;

@@ -2,6 +2,7 @@ const mediaQuery = window.matchMedia('(min-width: 1200px)')
 const header__mobile_menu = document.querySelector('.header__mobile_menu');
 const header__menu_close = document.querySelector('.header__menu_close');
 const nav__item = document.querySelectorAll('.nav__item');
+const faq__item = document.querySelectorAll('.faq__item');
 const nav = document.querySelector('.nav');
 const body = document.querySelector('body');
 
@@ -46,14 +47,16 @@ function openCloseSubMenu() {
   openCloseSubMenu.classList.toggle('open')
 }
 
-if (window.matchMedia("(min-width: 400px)").matches) {
-  /* the viewport is at least 400 pixels wide */
-} else {
-  /* the viewport is less than 400 pixels wide */
+function faqOpenClose() {
+  const openCloseFaqIcon = this.querySelector('.faq__item_title')
+  const openCloseFaqText = this.querySelector('.faq__item_text')
+  openCloseFaqIcon.classList.toggle('open')  
+  openCloseFaqText.classList.toggle('open')
 }
 
 header__mobile_menu.addEventListener('click', openBurgerMenu, false)
 header__menu_close.addEventListener('click', closeBurgerMenu, false)
 nav__item.forEach(el=>el.addEventListener('click', openCloseSubMenu, false))
+faq__item.forEach(el=>el.addEventListener('click', faqOpenClose, false))
 
 mediaQuery.addEventListener('change', handleTabletChange, false)
