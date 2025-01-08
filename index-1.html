@@ -13,15 +13,11 @@
   <link rel="stylesheet" href="./styles/global.css">
   <link rel="stylesheet" href="./styles/header.css">
   <link rel="stylesheet" href="./styles/banner.css">
-  <link rel="stylesheet" href="./styles/booking.css">
-  <link rel="stylesheet" href="./styles/booking-new.css">
-  <link rel="stylesheet" href="./styles/shipping.css">
-  <link rel="stylesheet" href="./styles/charge.css">
-  <link rel="stylesheet" href="./styles/trusted.css">
+  <link rel="stylesheet" href="./styles/second-page/cost.css">
+  <link rel="stylesheet" href="./styles/second-page/car-tramsport.css">
+  <link rel="stylesheet" href="./styles/second-page/calculator.css">
   <link rel="stylesheet" href="./styles/services.css">
-  <link rel="stylesheet" href="./styles/transport.css">
   <link rel="stylesheet" href="./styles/faq.css">
-  <link rel="stylesheet" href="./styles/stories.css">
   <link rel="stylesheet" href="./styles/footer.css">
   <title>Montway</title>
 </head>
@@ -181,256 +177,153 @@
       </div>
     </section>
     <!-- /Banner -->
-    <!-- Booking -->
-    <section class="booking">
-      <div class="container">
-        <h2 class="booking__title">How do I book with an auto transport company</h2>
-        <p class="booking__subtitle">Montway Auto Transport’s company guide to quick, easy and safe auto shipping</p>
-        <div class="booking__inner">
-          <div class="booking__video">
-            <img src="./images/booking.jpg" alt="booking video">
-          </div>
-          <div class="booking__steps">
-            <h4 class="booking__steps_title">Our auto transporter steps:</h4>
-            <div class="booking__steps_item">
-              <div class="booking__steps_item_img">
+    <!-- Cost -->
+    <section class="cost container">
+      <div class="cost__text">
+        <h2 class="cost__title">How much does car shipping cost?</h2>
+        <p>Car shipping costs in 2024, specifically for open car shipping, are estimated around
+          $1.85/mile for short distances (1-500 miles) or $555 for a 300-mile trip. Medium distances
+          average about $.91/mile (500-1500 miles) or $910 for 1000 miles. Long distances
+          (1500+ miles) are about $.59/mile or $1,180 for a 2000-mile trip. It’s important to note that
+          car shipping costs may vary and the rates for enclosed car shipping will be higher.</p>
+        <p>When it comes to shipping your vehicle, there are several factors that come into play
+          when determining the cost. Everything from the type of vehicle you’re shipping to the
+          type of shipping method you choose will affect the price.</p>
+      </div>
+      <div class="cost__table">
+        <table class="cost__table_inner">
+          <thead style="background-color: #00a1ef;">
+            <tr>
+              <th class="cost__table_head" style="border: 2px solid #bebfc2;" colspan="4">
+                Average car shipping cost per mile
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="cost__table_col" style="border: 2px solid #bebfc2;">
+                Distance
+              </td>
+              <td class="cost__table_col" style="border: 2px solid #bebfc2;">
+                Open transport
+              </td>
+              <td class="cost__table_col" style="border: 2px solid #bebfc2;">
+                Enclosed transport
+              </td>
+            </tr>
+            <tr style="background-color: #e6e7e8;">
+              <td class="cost__table_col" style="border: 2px solid #bebfc2;">
+                1-500 miles
+              </td>
+              <td class="cost__table_col" style="border: 2px solid #bebfc2;">
+                $1.85/mile
+              </td>
+              <td class="cost__table_col" style="border: 2px solid #bebfc2;">
+                $2.53/mile
+              </td>
+            </tr>
+            <tr>
+              <td class="cost__table_col" style="border: 2px solid #bebfc2;">
+                501-1,500 miles
+              </td>
+              <td class="cost__table_col" style="border: 2px solid #bebfc2;">
+                $.91/mile
+              </td>
+              <td class="cost__table_col" style="border: 2px solid #bebfc2;">
+                $1.25/mile
+              </td>
+            </tr>
+            <tr style="background-color: #e6e7e8;">
+              <td class="cost__table_col" style="border: 2px solid #bebfc2;">
+                1,500+ miles
+              </td>
+              <td class="cost__table_col" style="border: 2px solid #bebfc2;">
+                $.59/mile
+              </td>
+              <td class="cost__table_col" style="border: 2px solid #bebfc2;">
+                $.84/mile
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- /Cost -->
+    <!-- Car Transport -->
+    <section class="cartransport container">
+      <div class="cartransport__item">
+        <div class="cartransport__img cartransport__img_first">
+          <img src="./images/faq.jpg" alt="car transport">
+        </div>
+        <div class="cartransport__text">
+          <h3 class="cartransport__title">What is car transport?</h3>
+          <p class="cartransport__description">Car transport or car shipping, is a service that moves cars from one
+            destination to another. The best car
+            transport involves licensed professionals with the right experience and equipment to safely move your
+            vehicle.
+            The type of transport you choose will affect your car shipping cost. You can ship via open transport (more
+            cost effective) or enclosed transport (more protection). Typically, enclosed auto transport will cost 10-40%
+            more than open transport. Open transport is the most common type of transport, used by most customers,
+            including car dealerships. Enclosed transport is the preferred method for anyone shipping luxury, exotic or
+            collector vehicles that want added protection.</p>
+        </div>
+      </div>
+      <div class="cartransport__item cartransport__img_second">
+        <div class="cartransport__img">
+          <img src="./images/car-transport.png" alt="car transport">
+        </div>
+        <div class="cartransport__text">
+          <h3 class="cartransport__title">What is car transport?</h3>
+          <p class="cartransport__description">Car transport or car shipping, is a service that moves cars from one
+            destination to another. The best car
+            transport involves licensed professionals with the right experience and equipment to safely move your
+            vehicle.
+            The type of transport you choose will affect your car shipping cost. You can ship via open transport (more
+            cost effective) or enclosed transport (more protection). Typically, enclosed auto transport will cost 10-40%
+            more than open transport. Open transport is the most common type of transport, used by most customers,
+            including car dealerships. Enclosed transport is the preferred method for anyone shipping luxury, exotic or
+            collector vehicles that want added protection.</p>
+        </div>
+      </div>
+    </section>
+    <!-- /Car Transport -->
+    <!-- Cost Calculator -->
+    <section class="calculator">
+      <div class="calculator__inner container">
+        <h2 class="calculator__title">How to use the Montway car shipping cost calculator</h2>
+        <p class="calculator__text">Our free instant quote calculator provides accurate car shipping costs for your
+          vehicle shipment in just a few clicks. Complete the steps below and instantly receive your quote, no credit
+          card or upfront payment is required. Provide as much detail about your vehicle and shipping needs for the most
+          accurate estimate.</p>
+        <div class="calculator__process">
+          <div class="calculator__process_info">
+            <h3 class="calculator__process_title">The car transport process</h3>
+            <div class="calculator__process_item">
+              <div class="calculator__process_item_img">
                 <img src="./icons/booking-step1.png" alt="step 1">
               </div>
-              <div class="booking__steps_item_text">
-                <h5>Step 1</h5>
-                <p>Quote and book your order</p>
-              </div>
+              <h5 class="calculator__process_item_text">Step 1: Quote & book order</h5>
             </div>
-            <div class="booking__steps_item">
-              <div class="booking__steps_item_img">
+            <div class="calculator__process_item">
+              <div class="calculator__process_item_img">
                 <img src="./icons/booking-step2.png" alt="step 2">
               </div>
-              <div class="booking__steps_item_text">
-                <h5>Step 2</h5>
-                <p>We pick up your vehicle</p>
-              </div>
+              <h5 class="calculator__process_item_text">Step 2: Vehicle pickup</h5>
             </div>
-            <div class="booking__steps_item">
-              <div class="booking__steps_item_img">
+            <div class="calculator__process_item">
+              <div class="calculator__process_item_img">
                 <img src="./icons/booking-step3.png" alt="step 3">
               </div>
-              <div class="booking__steps_item_text">
-                <h5>Step 3</h5>
-                <p>Receive your vehicle</p>
-              </div>
+              <h5 class="calculator__process_item_text">Step 3: Vehicle delivery</h5>
             </div>
           </div>
-        </div>
-        <div class="booking__buttons">
-          <button class="btn btn-orange">Get an instant quote</button>
-          <button class="btn btn-white">Learn more</button>
-        </div>
-      </div>
-    </section>
-    <!-- /Booking -->
-    <!-- Booking New -->
-    <section class="booking__new container">
-      <h2 class="booking__new_title">We always follow the best ways of logistics</h2>
-      <p class="booking__new_subtitle">Loraic Air freight service deliver the knowledge & opportunity to optimize every
-      </p>
-      <div class="booking__new_inner">
-        <div class="booking__new_item">
-          <div class="booking__new_item_inner">
-            <div class="booking__new_item_img_wrap">
-              <div class="booking__new_item_img">
-                <img src="./images/step1.webp" alt="Receive Packages">
-              </div>
-              <span>1</span>
-            </div>
-            <h4>Step 1: Receive Packages</h4>
-            <p>Loraic Air freight service deliver to know ledge & opportunity to optimize Loraic Air freight service
-              deliver to know ledge and opportunity to optimize.</p>
-          </div>
-        </div>
-        <div class="booking__new_item">
-          <div class="booking__new_item_inner">
-            <div class="booking__new_item_img_wrap">
-              <div class="booking__new_item_img">
-                <img src="./images/step2.webp" alt="Receive Packages">
-              </div>
-              <span>2</span>
-            </div>
-            <h4>Step 2: Transport Packages</h4>
-            <p>Loraic Air freight service deliver to know ledge & opportunity to optimize Loraic Air freight service
-              deliver to know ledge and opportunity to optimize.</p>
-          </div>
-        </div>
-        <div class="booking__new_item">
-          <div class="booking__new_item_inner">
-            <div class="booking__new_item_img_wrap">
-              <div class="booking__new_item_img">
-                <img src="./images/step3.webp" alt="Receive Packages">
-              </div>
-              <span>3</span>
-            </div>
-            <h4>Step 3: Deliver Packages</h4>
-            <p>Loraic Air freight service deliver to know ledge & opportunity to optimize Loraic Air freight service
-              deliver to know ledge and opportunity to optimize.</p>
+          <div class="calculator__process_video">
+            <img src="./images/calculator.jpg" alt="car calculator">
           </div>
         </div>
       </div>
     </section>
-    <!-- /Booking New -->
-    <!-- Shipping -->
-    <section class="shipping container">
-      <h2 class="shipping__title">Why you should book with one of the best auto shipping companies:</h2>
-      <div class="shipping__inner">
-        <div class="shipping__item">
-          <div class="shipping__icon">
-            <img src="./icons/shipping-icon.png" alt="Leave it to the pros">
-          </div>
-          <h4>Leave it to the pros</h4>
-          <p>As a top-rated auto transport company, you can have confidence your vehicle will be transported safely.
-            When shipping your vehicle, you’re allowing our team of experts to handle every step of the process,
-            ensuring there are no speed bumps along the way.</p>
-        </div>
-        <div class="shipping__item">
-          <div class="shipping__icon">
-            <img src="./icons/shipping-icon.png" alt="Leave it to the pros">
-          </div>
-          <h4>Leave it to the pros</h4>
-          <p>As a top-rated auto transport company, you can have confidence your vehicle will be transported safely.
-            When shipping your vehicle, you’re allowing our team of experts to handle every step of the process,
-            ensuring there are no speed bumps along the way.</p>
-        </div>
-        <div class="shipping__item">
-          <div class="shipping__icon">
-            <img src="./icons/shipping-icon.png" alt="Leave it to the pros">
-          </div>
-          <h4>Leave it to the pros</h4>
-          <p>As a top-rated auto transport company, you can have confidence your vehicle will be transported safely.
-            When shipping your vehicle, you’re allowing our team of experts to handle every step of the process,
-            ensuring there are no speed bumps along the way.</p>
-        </div>
-        <div class="shipping__item">
-          <div class="shipping__icon">
-            <img src="./icons/shipping-icon.png" alt="Leave it to the pros">
-          </div>
-          <h4>Leave it to the pros</h4>
-          <p>As a top-rated auto transport company, you can have confidence your vehicle will be transported safely.
-            When shipping your vehicle, you’re allowing our team of experts to handle every step of the process,
-            ensuring there are no speed bumps along the way.</p>
-        </div>
-        <div class="shipping__item">
-          <div class="shipping__icon">
-            <img src="./icons/shipping-icon.png" alt="Leave it to the pros">
-          </div>
-          <h4>Leave it to the pros</h4>
-          <p>As a top-rated auto transport company, you can have confidence your vehicle will be transported safely.
-            When shipping your vehicle, you’re allowing our team of experts to handle every step of the process,
-            ensuring there are no speed bumps along the way.</p>
-        </div>
-        <div class="shipping__item">
-          <div class="shipping__icon">
-            <img src="./icons/shipping-icon.png" alt="Leave it to the pros">
-          </div>
-          <h4>Leave it to the pros</h4>
-          <p>As a top-rated auto transport company, you can have confidence your vehicle will be transported safely.
-            When shipping your vehicle, you’re allowing our team of experts to handle every step of the process,
-            ensuring there are no speed bumps along the way.</p>
-        </div>
-        <div class="shipping__item">
-          <div class="shipping__icon">
-            <img src="./icons/shipping-icon.png" alt="Leave it to the pros">
-          </div>
-          <h4>Leave it to the pros</h4>
-          <p>As a top-rated auto transport company, you can have confidence your vehicle will be transported safely.
-            When shipping your vehicle, you’re allowing our team of experts to handle every step of the process,
-            ensuring there are no speed bumps along the way.</p>
-        </div>
-        <div class="shipping__item">
-          <div class="shipping__icon">
-            <img src="./icons/shipping-icon.png" alt="Leave it to the pros">
-          </div>
-          <h4>Leave it to the pros</h4>
-          <p>As a top-rated auto transport company, you can have confidence your vehicle will be transported safely.
-            When shipping your vehicle, you’re allowing our team of experts to handle every step of the process,
-            ensuring there are no speed bumps along the way.</p>
-        </div>
-      </div>
-    </section>
-    <!-- /Shipping -->
-    <!-- Charge -->
-    <section class="charge container">
-      <div class="charge__text">
-        <h3 class="charge__title">How much do car transport companies charge?</h3>
-        <p class="charge__description">
-          Car shipping quotes are based on current market trends for nationwide auto transport. Your total cost from
-          auto shipping companies will depend on the type of car you want to move, where it needs to go, its size,
-          condition (or if it has any modifications), total transport distance, transport type (open or enclosed trailer
-          shipment), and finally, the time of year when you book.</p>
-        <p class="charge__description">Don’t forget to check for additional promotions and savings. Get a quote with
-          our car shipping calculator,
-          use our Live Chat, or call (888) 666-8929.</p>
-        <button class="charge__btn btn btn-white">Car shipping cost information</button>
-      </div>
-      <div class="charge__info">
-        <div class="charge__info_item">
-          <div class="charge__info_item_icon">
-            <img src="./icons/charge-icon.png" alt="Size and weight of vehicle">
-          </div>
-          <h4 class="charge__info_item_title">Size and weight of vehicle</h4>
-          <p class="charge__info_item_text">Longer, taller or heavier-than-average vehicles require special
-            accommodations by car transport companies and, as a result, the price may vary.</p>
-        </div>
-        <div class="charge__info_item">
-          <div class="charge__info_item_icon">
-            <img src="./icons/charge-icon.png" alt="Size and weight of vehicle">
-          </div>
-          <h4 class="charge__info_item_title">Size and weight of vehicle</h4>
-          <p class="charge__info_item_text">Longer, taller or heavier-than-average vehicles require special
-            accommodations by car transport companies and, as a result, the price may vary.</p>
-        </div>
-        <div class="charge__info_item">
-          <div class="charge__info_item_icon">
-            <img src="./icons/charge-icon.png" alt="Size and weight of vehicle">
-          </div>
-          <h4 class="charge__info_item_title">Size and weight of vehicle</h4>
-          <p class="charge__info_item_text">Longer, taller or heavier-than-average vehicles require special
-            accommodations by car transport companies and, as a result, the price may vary.</p>
-        </div>
-      </div>
-    </section>
-    <!-- /Charge -->
-    <!-- Trusted -->
-    <section class="trusted container">
-      <h2 class="trusted__title">Trusted by the world’s best</h2>
-      <div class="trusted__inner">
-        <div class="trusted__item">
-          <img src="./icons/trust1.png" alt="porsche">
-        </div>
-        <div class="trusted__item">
-          <img src="./icons/trust1.png" alt="porsche">
-        </div>
-        <div class="trusted__item">
-          <img src="./icons/trust1.png" alt="porsche">
-        </div>
-        <div class="trusted__item">
-          <img src="./icons/trust1.png" alt="porsche">
-        </div>
-        <div class="trusted__item">
-          <img src="./icons/trust1.png" alt="porsche">
-        </div>
-        <div class="trusted__item">
-          <img src="./icons/trust1.png" alt="porsche">
-        </div>
-        <div class="trusted__item">
-          <img src="./icons/trust1.png" alt="porsche">
-        </div>
-        <div class="trusted__item">
-          <img src="./icons/trust1.png" alt="porsche">
-        </div>
-        <div class="trusted__item">
-          <img src="./icons/trust1.png" alt="porsche">
-        </div>
-      </div>
-    </section>
-    <!-- /Trusted -->
+    <!-- /Cost Calculator -->
     <!-- Services -->
     <section class="services container">
       <h2 class="services__title">Popular vehicle shipping services</h2>
@@ -467,42 +360,6 @@
       <a href="#" class="services__link">Find out how auto transport works</a>
     </section>
     <!-- /Services -->
-    <!-- Transport -->
-    <section class="transport container">
-      <h2 class="transport__title">Car transport anywhere in the U.S.</h2>
-      <div class="transport__inner">
-        <div class="transport__item">
-          <div class="transport__img">
-            <img src="./images/transport1.jpg" alt="California">
-          </div>
-          <h4 class="transport__item_title">California</h4>
-          <p class="transport__item_text">Transport your car anywhere to or from The Empire State</p>
-        </div>
-        <div class="transport__item">
-          <div class="transport__img">
-            <img src="./images/transport1.jpg" alt="California">
-          </div>
-          <h4 class="transport__item_title">California</h4>
-          <p class="transport__item_text">Transport your car anywhere to or from The Empire State</p>
-        </div>
-        <div class="transport__item">
-          <div class="transport__img">
-            <img src="./images/transport1.jpg" alt="California">
-          </div>
-          <h4 class="transport__item_title">California</h4>
-          <p class="transport__item_text">Transport your car anywhere to or from The Empire State</p>
-        </div>
-        <div class="transport__item">
-          <div class="transport__img">
-            <img src="./images/transport1.jpg" alt="California">
-          </div>
-          <h4 class="transport__item_title">California</h4>
-          <p class="transport__item_text">Transport your car anywhere to or from The Empire State</p>
-        </div>
-      </div>
-      <a href="#" class="transport__link">Ship your car to any state across the country</a>
-    </section>
-    <!-- /Transport -->
     <!-- FAQ -->
     <section class="faq container">
       <div class="faq__info">
@@ -542,40 +399,6 @@
       </div>
     </section>
     <!-- /FAQ -->
-    <!-- Stories -->
-    <section class="stories container">
-      <h2 class="stories__title">Latest stories for you</h2>
-      <div class="stories__inner">
-        <div class="stories__item">
-          <div class="stories__item_img">
-            <img src="./images/story1.jpg" alt="sory">
-          </div>
-          <div class="stories__info">
-            <h4>How to Sell a Used Car on Cars.com (Plus FAQs, Pros & Cons)</h4>
-            <p>Posted on: 01/07 2025</p>
-          </div>
-        </div>
-        <div class="stories__item">
-          <div class="stories__item_img">
-            <img src="./images/story1.jpg" alt="sory">
-          </div>
-          <div class="stories__info">
-            <h4>How to Sell a Used Car on Cars.com (Plus FAQs, Pros & Cons)</h4>
-            <p>Posted on: 01/07 2025</p>
-          </div>
-        </div>
-        <div class="stories__item">
-          <div class="stories__item_img">
-            <img src="./images/story1.jpg" alt="sory">
-          </div>
-          <div class="stories__info">
-            <h4>How to Sell a Used Car on Cars.com (Plus FAQs, Pros & Cons)</h4>
-            <p>Posted on: 01/07 2025</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /Stories -->
     <!-- Footer -->
     <footer class="footer">
       <div class="footer__inner container">

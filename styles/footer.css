@@ -1,1 +1,124 @@
+.footer {
+  margin-block-end: 1.5rem;
+}
 
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-block: .8rem;
+  border-top: 3px solid var(--light-blue);
+  border-bottom: 3px solid var(--light-blue);
+}
+
+.footer__address {
+  display: flex;
+  flex-direction: column;
+  max-width: 14.3rem;
+  padding-inline-end: .8rem;
+}
+
+.footer__logo {
+  max-width: 9.4rem;
+  margin-block-end: .6rem;
+}
+
+.footer__address_text {
+  font-size: .8rem;
+  line-height: 1.25;
+  color: var(--footer-gray);
+}
+
+.footer__tel {
+  font-size: .8rem;
+  line-height: 1.25;
+  color: var(--light-blue);
+}
+
+.footer__tel:hover {
+  text-decoration: underline;
+}
+
+.footer__menu {
+  display: flex;
+}
+
+.footer__menu_section {
+  display: flex;
+  flex-direction: column;
+  row-gap: .7rem;
+  max-width: 10rem;
+  padding-inline: 1rem;
+  font-size: .7rem;
+  line-height: 1.25;
+  color: var(--footer-gray);
+  border-left: 3px solid var(--light-blue);
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: space-between;
+  max-width: 23.7rem;
+  padding-inline-start: 1rem;
+}
+
+.footer__right_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  row-gap: 1rem;
+}
+
+.footer__fmcsa {
+  display: flex;
+  align-items: center;
+  column-gap: .8rem;
+  font-size: .7rem;
+  line-height: 1.3;
+  color: var(--dark-gray);
+}
+
+.footer__social {
+  display: flex;
+  column-gap: .7rem;
+}
+
+.footer__social a {
+  display: flex;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: var(--dark-gray);
+  border-radius: 50%;
+}
+
+.footer__social svg {
+  fill: var(--content-bg);
+  width: .7rem;
+  height: .8rem;
+  margin: auto;
+}
+
+.footer__copyright {
+  font-size: .7rem;
+  line-height: 1.25;
+  color: var(--dark-gray);
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__right_inner {
+    flex-direction: column;
+  }  
+}
+
+@media screen and (max-width: 992px) {
+  .footer__inner {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 1rem;
+  }
+
+  .footer__right {
+    padding-inline-start: 0;
+  }
+}

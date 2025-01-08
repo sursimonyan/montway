@@ -1,0 +1,60 @@
+.cost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-block-end: 3rem;
+}
+
+.cost__text {
+  max-width: 33rem;
+  width: 56%;
+}
+
+.cost__text p {
+  font-size: .7rem;
+  line-height: 1.25;
+}
+
+.cost__text p + p {
+  margin-block-start: 1rem;
+}
+
+.cost__title {
+  margin-block-end: 2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.cost__table {
+  max-width: 25rem;
+  width: 45%;
+}
+
+.cost__table_inner {
+  width: 100%;
+}
+
+.cost__table_head {
+  padding: .4rem .8rem;
+  font-size: .8rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.cost__table_col {
+  padding: .4rem .8rem;
+  font-size: .8rem;
+}
+
+@media screen and (max-width: 992px) {
+  .cost {
+    flex-direction: column;
+  }
+
+  .cost__text,
+  .cost__table {
+    max-width: 100%;
+    width: 100%;
+  }
+}
