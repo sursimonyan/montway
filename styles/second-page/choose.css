@@ -1,0 +1,51 @@
+.choose {
+  margin-block-end: 3rem;
+}
+
+.choose__title {
+  margin-block-end: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.choose__description {
+  margin-block-end: 2rem;
+  font-size: .7rem;
+  line-height: 1.25;
+}
+
+.choose__inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2.5rem;
+}
+
+.choose__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.choose__item_icon {
+  display: flex;
+  flex: 1 0 auto;
+  width: 5rem;
+  height: 5rem;
+}
+
+.choose__item_icon img {
+  margin: auto;
+} 
+
+.choose__item_text h4 {
+  margin-block-end: .5rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.choose__item_text p {
+  font-size: .7rem;
+  line-height: 1.25;
+}
