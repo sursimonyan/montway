@@ -20,7 +20,7 @@
 
 .charge__description {
   margin-block-end: 1rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.25;
 }
 
@@ -31,7 +31,7 @@
 
 .charge__info_item {
   position: relative;
-  padding-block: .8rem;
+  padding-block: 0.8rem;
   padding-inline-start: 3rem;
   padding-inline-end: 1rem;
   border: 1px solid var(--dark-gray);
@@ -63,7 +63,7 @@
 }
 
 .charge__info_item_text {
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.25;
 }
 
@@ -80,5 +80,12 @@
   .charge__info {
     max-width: 100%;
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .charge__info {
+    max-width: 90%;
+    margin-inline: auto;
   }
 }

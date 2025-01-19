@@ -27,8 +27,8 @@
 </head>
 
 <body>
-  <main class="main">
-    <!-- Header -->
+  <!-- Header -->
+  <div class="header__wrap">
     <header class="header">
       <span class="header__mobile_menu mobile">
         <img src="./icons/burger.svg" alt="icon burger menu">
@@ -121,27 +121,15 @@
               </div>
             </div>
           </div>
-          <div class="nav__item">
-            <span class="nav__item_title">
-              WHY MONTWAY
-              <i>
-                <img src="./icons/arrow-down.svg" alt="arrow down">
-              </i>
-            </span>
-            <div class="nav__item_content">
-              <div>
-                <a href="#">Cross country car shipping</a>
-                <a href="#">Cross country car shipping</a>
-                <a href="#">Cross country car shipping</a>
-              </div>
-            </div>
-          </div>
-          <div class="mobile header__phone">(888) 666-8929</div>
+          <a href="tel:+8886668929" class="mobile header__phone">(888) 666-8929</a>
         </div>
       </nav>
-      <a href="tel:+8886668929" class="header__phone">(888) 666-8929</a>
+      <button class="header__btn btn btn-orange">Get an qoute</button>
+      <a href="tel:+8886668929" class="desktop header__phone">(888) 666-8929</a>
     </header>
-    <!-- /Header -->
+  </div>
+  <!-- /Header -->
+  <main class="main">
     <!-- Banner -->
     <section class="banner">
       <div class="banner__inner container">
@@ -538,7 +526,12 @@
         </div>
       </div>
       <div class="faq__img">
-        <img src="./images//faq.jpg" alt="faq">
+        <img src="./images/booking.jpg" alt="faq">
+        <div class="faq__content">
+          <h4>Get a Qoute With Us</h4>
+          <p>Use some text here</p>
+          <button class="btn btn-orange">Get start</button>
+        </div>
       </div>
     </section>
     <!-- /FAQ -->
@@ -669,7 +662,40 @@
         </div>
       </div>
     </footer>
-    <!-- / -->
+    <!-- /Footer -->
+    <!-- Popup -->
+    <div class="popup__form">
+      <div class="popup__form_inner form">
+        <h4 class="form__title">Request Qoute Form</h4>
+        <form class="form__inner">
+          <div class="form__inputs">
+            <div>
+              <p class="form__info_title">Name</p>
+              <input type="text" placeholder="Name">
+            </div>
+            <div>
+              <p class="form__info_title">Name</p>
+              <input type="text" placeholder="Name">
+            </div>
+          </div>
+          <div class="form__transport_type">
+            Transport type
+            <label>
+              <input type="radio" name="transportation-type" checked="">
+              Open
+            </label>
+            <label>
+              <input type="radio" name="transportation-type">
+              Enclosed
+            </label>
+          </div>
+          <button type="submit" class="form__submit">Get A Qoute</button>
+        </form>
+        <p class="form__tel">Or give us a call +098 765 4321</p>
+        <p class="form__support">The Support Centre is Available 24/7</p>
+      </div>
+    </div>
+    <!-- /Popup -->
   </main>
 
   <script src="./scripts/scripts.js"></script>
